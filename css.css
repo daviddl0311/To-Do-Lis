@@ -1,0 +1,188 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    cursor: default;
+}
+input {
+    font-family: "Poppins", sans-serif;
+    width: 30rem;
+    height: 100%;
+    padding-inline: .5rem;
+    border-radius: 4px;
+}
+ul > li {
+    list-style-type: none;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+h2 {
+    padding-block: 1rem;
+    text-transform: uppercase;
+}
+p {
+    text-align: justify;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
+.center-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.center-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+.header {
+    background-color: #2563eb;
+    height: 40rem;
+}
+.icon {
+    font-size: 6rem;
+    padding-top: 3rem;
+    transition: all .3s;
+}
+.icon:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+.title {
+    margin-top: 2rem;
+    font-size: clamp(14px, 2vw, 30px); 
+    text-transform: uppercase;
+}
+.description {
+    font-size: clamp(10px, 2vw, 23px);
+    padding: 1rem;
+}
+.grid-column-2 {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: .6rem;
+}
+.control {
+    padding: 3rem;
+}
+.homework {
+    position: relative;
+    top: -120px;
+    margin-inline: 30rem;
+    background-color: white;
+    border: .5px solid rgb(230, 221, 221);
+    color: black;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.busqueda {
+    padding-top: .8rem;
+}
+.my_list {
+    margin-top: 2rem;
+}
+.item {
+    color: white;
+    background-color: #2563eb;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.item-2 {
+    color: white;
+    background-color: #004ef559;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.tarea {
+    max-width: 30rem;
+    min-width: 100%;
+    font-size: clamp(10px, 2vw, 18px);
+}
+.completed {  
+    font-family: "Poppins", sans-serif;  
+    text-transform: uppercase;
+    font-size: clamp(10px, 2vw, 15px);
+    background-color: rgb(15, 202, 15);
+    color: white;
+    width: 8rem;
+    border-radius: 5px;
+    padding-block: 1rem;
+    padding-inline: .3rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.completed:hover {
+    background-color: rgb(107, 201, 88);
+    color: white;
+}
+.delete {
+    font-family: "Poppins", sans-serif;  
+    text-transform: uppercase;
+    font-size: clamp(10px, 2vw, 15px);
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 8rem;
+    border-radius: 5px;
+    padding-block: 1rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.delete:hover {
+    background-color: rgb(236, 60, 60);
+    color: white;
+}
+.gap-3 {
+    gap: 50px;
+}
+.background {
+    background-color: white;
+    height: 40rem;
+}
+.activar {
+    font-family: "Poppins", sans-serif;  
+    text-transform: uppercase;
+    font-size: clamp(10px, 2vw, 15px);
+    background-color: #2563eb;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.activar:hover {
+    background-color: #4877dd;
+}
+
+#button {
+    font-family: "Poppins", sans-serif;
+    width: 5rem;
+    height: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f97316;
+    color: white;
+    transition: all .4s;
+}
+#button:hover {
+    background-color: #f5924c;
+    color: white;
+}
+#search {
+    border: solid 1px black;
+    width: 20rem;
+    height: 2rem;
+}

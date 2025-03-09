@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To - Do - List</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8bc6f858e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <div class="center icon">
+            <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="center title">
+            <h1>to-do list</h1>
+        </div>
+        <div class="center description">
+            <p>Organiza y gestiona tus tareas de manera fácil y rápida</p>
+        </div>
+        
+        <div class="center grid-column-2 control">
+            <div>
+                <input type="text" id="textos" placeholder="Añade aquí tu tarea">
+            </div>
+            <div>
+                <button id="button">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="homework">
+        <div class="center">
+            <h2>registro de actividades</h2>
+        </div>
+        <div class="center-right busqueda">
+            <input type="text" placeholder="Buscar tarea" id="search">   
+        </div>
+
+        <ul class="my_list grid" id="myList">
+        </ul>
+
+        <p class="center-left" id="message" style="font-size: 1.2rem;"></p>
+    </section>
+
+    <script src="js.js"></script>
+    <script src="js_2.js"></script>
+</body>
+</html>
