@@ -18,7 +18,7 @@ buscar.addEventListener("input", () => {
     });
 
     if(!hasMatch) {
-        message.textContent = `No se encontró "${myItem}"`;
+        message.textContent = `No se encontró "${buscar.value}"`;
         message.style.display = "";
     } else {
         message.style.display = "none";
